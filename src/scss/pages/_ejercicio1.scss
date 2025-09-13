@@ -1,0 +1,31 @@
+@use "../abstracts/variables" as *;
+
+.main_ej1 {
+    padding: 2rem;
+    min-height: 70vh;
+    height: auto;
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        padding: 1rem 1.5rem;
+        border-radius: 12px;
+        background-color: $color-primary;
+
+        &:hover{
+            background-color: $color-light;
+        }
+    }
+
+}
+
+.main_hex {
+  position: absolute;
+  background: white;
+  padding: 1rem;
+  border: 2px solid #543034;
+  border-radius: 8px;
+}
+
