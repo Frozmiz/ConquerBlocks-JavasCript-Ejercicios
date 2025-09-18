@@ -1,8 +1,9 @@
 {
-  "name": "base-vite-project-sass",
+  "name": "ConquerBlocks-JavasCript-Ejercicios",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.com/Frozmiz/ConquerBlocks-JavasCript-Ejercicios/settings/pages",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -3,11 +3,10 @@
 
 
 .footer_ej {
-    padding: 1rem;
-    height: auto;
+    left: 0; right: 0; bottom: 0;
+    position: fixed;
     background: linear-gradient(180deg, $color-primary 0%, $color-secondary 100%);
-    display: flex;
-    justify-content: left;
+    
 }
 
 .footer_button{

@@ -1,8 +1,8 @@
 @use "../abstracts/_variables" as *;
 @use "../abstracts/_mixins" as *;
 
-
 .header_ej {
+  position: relative;
   background: linear-gradient(180deg, $color-primary 0%, $color-secondary 100%);
   color: $color-accent;
   padding: 3rem 1.5rem;
@@ -10,15 +10,16 @@
   border-bottom: 4px solid $color-accent;
 
   h1 {
-    margin: 0 0 .5rem 0;
+    margin: 0 0 0.5rem 0;
     font-size: clamp(2rem, 4vw, 3rem);
-    letter-spacing: .5px;
+    letter-spacing: 0.5px;
     text-transform: uppercase;
   }
 
   p {
     margin: 0;
     font-weight: 600;
-    opacity: .85;
+    opacity: 0.85;
   }
 }
+
