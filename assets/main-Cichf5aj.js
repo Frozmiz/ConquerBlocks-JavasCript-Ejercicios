@@ -1,0 +1,1 @@
+document.querySelectorAll("p > span").forEach(e=>{const o=e.textContent||"";e.textContent="",o.split("").forEach((n,l)=>{const t=document.createElement("span");t.className="letter",t.style.setProperty("--i",l),t.textContent=n===" "?" ":n,e.appendChild(t)})});

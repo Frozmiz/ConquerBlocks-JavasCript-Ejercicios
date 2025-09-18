@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-B5Qt9EMX.js";import"./main-Cichf5aj.js";const e=document.querySelector(".main_button"),n=document.getElementById("contador");let t=0;n.textContent=t;function o(){t+=1,n.textContent=t}e.addEventListener("click",o);(!e||!n)&&console.warn("No se encontró el botón o el contador en el DOM.");
