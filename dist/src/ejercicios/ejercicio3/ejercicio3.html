@@ -11,23 +11,43 @@
       rel="stylesheet"
     />
     <link rel="icon" type="image/svg+xml" href="favicon.ico" />
-    <title>Entrega de ejercicios JavasCript Vainilla - Alejandro Gonzalez Lopez</title>
-    <script type="module" crossorigin src="/ConquerBlocks-JavasCript-Ejercicios/assets/main-rEgXqWxc.js"></script>
-    <link rel="stylesheet" crossorigin href="/ConquerBlocks-JavasCript-Ejercicios/assets/main-COPaVGsC.css">
+    <title>
+      Entrega de ejercicios JavasCript Vainilla - Alejandro Gonzalez Lopez
+    </title>
+    <script type="module" crossorigin src="/ConquerBlocks-JavasCript-Ejercicios/assets/ejercicio3-BA6C-fXC.js"></script>
+    <link rel="modulepreload" crossorigin href="/ConquerBlocks-JavasCript-Ejercicios/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/ConquerBlocks-JavasCript-Ejercicios/assets/main-Cichf5aj.js">
+    <link rel="stylesheet" crossorigin href="/ConquerBlocks-JavasCript-Ejercicios/assets/main-DhsioPXO.css">
   </head>
 
   <body>
     <header class="header_ej">
-      <h1> FRONTEND - Ejercicios Javascript </h1>
-      <p> Ejercicio 3 . Lista Dinámica</p>
+      <h1>FRONTEND - Ejercicios Javascript</h1>
+      <p>Ejercicio 3 . Lista Dinámica</p>
     </header>
 
     <main>
-     <div class="list"></div>
+      <form class="main_ej3" id="todo-form" autocomplete="off">
+        <label for="todo-input" class="sr-only">Nueva tarea: </label>
+        <input
+          id="todo-input"
+          type="text"
+          placeholder="Escribe tu tarea"
+          required
+        />
+        <button id="todo-add" type="submit">Añadir</button>
+      </form>
+
+      <section class="main_list">
+        <h2>TO DO LIST</h2>
+        <ol id="todo-list"></ol>
+      </section>
     </main>
 
     <footer class="footer_ej">
-        <button class="footer_button"> <a href="../../../index.html">BACK</a></button>
+      <button class="footer_button">
+        <a href="../../../index.html">BACK</a>
+      </button>
     </footer>
 
   </body>
