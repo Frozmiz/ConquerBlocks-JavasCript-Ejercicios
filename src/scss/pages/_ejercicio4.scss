@@ -47,12 +47,13 @@
 /* Caja lista */
 .main_list{
   max-width: 720px;
-  margin: 2rem auto;
+  margin: 2rem auto 4rem;
   padding: 1rem;
   background: $color-secondary;
   border: 2px solid $color-accent;
   border-radius: 12px;
   color: $color-light;
+  
 
   h2{
     margin: 0 0 1rem 0;
